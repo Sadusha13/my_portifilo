@@ -18,7 +18,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="text-2xl text-[#64748B] font-['Inter']">
-            UI/UX Designer & Full-Stack Developer
+           Web  Designer & Full-Stack Developer
           </p>
           <p className="text-lg text-[#64748B] leading-relaxed">
             Creating beautiful, functional digital experiences
@@ -28,16 +28,18 @@ export function Hero() {
           <div className="flex gap-4">
             <Button
               size="lg"
+              asChild
               className="bg-[#2563EB] hover:bg-[#1d4ed8] text-white h-12 px-6 rounded-[10px]"
             >
-              View Projects
+              <a href="#projects">View Projects</a>
             </Button>
             <Button
               size="lg"
               variant="outline"
+              asChild
               className="h-12 px-6 rounded-[10px] border-[#2563EB] text-[#2563EB] hover:bg-[#2563EB] hover:text-white"
             >
-              Contact Me
+              <a href="#contact">Contact Me</a>
             </Button>
           </div>
 

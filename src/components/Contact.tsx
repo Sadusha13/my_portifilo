@@ -90,7 +90,7 @@ export function Contact() {
               </div>
               <h3 className="text-lg font-semibold text-[#020617] mb-2 font-['Poppins']">Email</h3>
               <a href="mailto:sadushanilupul13@gmail.com" className="text-[#2563EB] hover:underline">
-                hello@example.com
+                sadushanilupul13@gmail.com
               </a>
             </div>
             
@@ -100,7 +100,7 @@ export function Contact() {
               </div>
               <h3 className="text-lg font-semibold text-[#020617] mb-2 font-['Poppins']">Phone</h3>
               <a href="tel:+783839119" className="text-[#2563EB] hover:underline">
-                +1 (234) 567-890
+                +783839119
               </a>
             </div>
             
@@ -109,7 +109,19 @@ export function Contact() {
                 <MapPin className="w-7 h-7 text-[#2563EB]" />
               </div>
               <h3 className="text-lg font-semibold text-[#020617] mb-2 font-['Poppins']">Location</h3>
-              <p className="text-[#64748B]"></p>
+              <a href="https://www.google.com/maps/place/Colombo,+Sri+Lanka" target="_blank" rel="noopener noreferrer" className="text-[#2563EB] hover:underline">
+                Colombo, Sri Lanka (Live map)
+              </a>
+              <div className="mt-4 rounded-xl overflow-hidden border border-[#E2E8F0]">
+                <iframe
+                  title="Colombo live location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507743.06394757996!2d79.68292433566516!3d6.934996911925561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2596a427f0c9b%3A0x40bb6a576af39f4b!2sColombo!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk"
+                  className="w-full h-48"
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </div>
         </div>

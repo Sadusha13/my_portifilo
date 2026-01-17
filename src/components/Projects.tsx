@@ -10,52 +10,36 @@ const projects = [
     image: "Hotel.png",
     tags: ["Java", "MySQL", "HTML", "CSS"],
     github: "https://github.com/Sadusha13/vista_veranda",
-    demo: "https://example.com",
+    demo: "http://localhost:8000/home.html",
   },
+  
   {
     title: "Student Management System",
     description: "Collaborative task management tool with real-time updates, team workspaces, and progress tracking.",
     image: "SMS.png",
     tags: ["HTML", "CSS", "TypeScript", "MongoDB"],
     github: "https://github.com/Sadusha13/PreSchool-web",
-    demo: "https://example.com",
+    demo: "http://127.0.0.1:8000/",
   },
   {
-    title: "Portfolio Dashboard",
-    description: "Investment portfolio tracker with real-time market data, analytics, and performance visualization.",
+    title: "Smart Home IOT System",
+    description: "IoT smart home system with real-time monitoring, automation, analytics, and dashboard visualization.",
     image:
-      "https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "IOT.jpg",
     tags: ["React", "Python", "Flask", "Chart.js"],
     github: "https://github.com/sadusha13",
     demo: "https://example.com",
   },
-  {
-    title: "Mobile Fitness App",
-    description: "Flutter-based fitness tracking application with workout plans, nutrition tracking, and progress analytics.",
+    {
+    title: "Smart City Information Portal",
+    description: " A Smart City Information Portal is a modern web-based front-end application that provides real-time city services information in one centralized dashboard.",
     image:
-      "https://images.unsplash.com/photo-1762279389042-9439bfb6c155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    tags: ["Flutter", "Firebase", "Dart"],
-    github: "https://github.com/sadusha13",
-    demo: "https://example.com",
-  },
-  {
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for managing multiple social media accounts with scheduling and insights.",
-    image:
-      "https://images.unsplash.com/photo-1510832758362-af875829efcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    tags: ["Vue.js", "Django", "PostgreSQL"],
-    github: "https://github.com/sadusha13",
-    demo: "https://example.com",
-  },
-  {
-    title: "AI Content Generator",
-    description: "AI-powered content generation tool for marketing copy, blog posts, and social media content.",
-    image:
-      "https://images.unsplash.com/photo-1666723043169-22e29545675c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    tags: ["React", "OpenAI", "Node.js"],
-    github: "https://github.com/sadusha13",
-    demo: "https://example.com",
-  },
+      "city.png",
+    tags: ["React", "next.js", "Figma", "google-maps UI"],
+    github: "https://github.com/Sadusha13/Smart-City-Information-Portal",
+    demo: "http://localhost:3001/",
+  }
+  
 ];
 
 export function Projects() {

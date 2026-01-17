@@ -1,34 +1,16 @@
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const experiences = [
-  {
-    type: "work",
-    company: "Tech Solutions Inc.",
-    role: "Senior Full-Stack Developer",
-    duration: "2022 - Present",
-    description: "Leading development of enterprise web applications using React, Node.js, and cloud technologies. Mentoring junior developers and establishing best practices."
-  },
-  {
-    type: "work",
-    company: "Digital Innovations",
-    role: "UI/UX Designer & Developer",
-    duration: "2020 - 2022",
-    description: "Designed and developed user-centric web and mobile applications. Collaborated with cross-functional teams to deliver high-quality products."
-  },
+  
+ 
   {
     type: "education",
-    company: "University of Technology",
-    role: "B.Sc. Computer Science",
-    duration: "2016 - 2020",
-    description: "Graduated with honors. Specialized in software engineering, web development, and human-computer interaction."
+    company: "Kotelawala Defence University",
+    role: "BT(Hons) in Information and Communication Technology",
+    duration: "2024 - Present",
+    description: "Undergraduate degree focused on software development, networking, and information systems."
   },
-  {
-    type: "work",
-    company: "StartUp Labs",
-    role: "Junior Developer",
-    duration: "2019 - 2020",
-    description: "Contributed to multiple startup projects, gaining experience in rapid prototyping and agile development methodologies."
-  }
+  
 ];
 
 export function Experience() {

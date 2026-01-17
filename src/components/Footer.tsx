@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <h3 className="text-white text-xl font-semibold mb-4 font-['Poppins']">Sadusha Nilupul</h3>
             <p className="text-slate-400 leading-relaxed">
-              UI/UX Designer & Full-Stack Developer crafting beautiful digital experiences.
+              UI/UX Designer & Web Developer crafting beautiful digital experiences.
             </p>
           </div>
           
@@ -64,14 +64,7 @@ export function Footer() {
               >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 hover:bg-[#2563EB] hover:text-white transition-all"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
+            
               <a
                 href="mailto:sadushanilupul13@gmail.com"
                 className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center text-slate-400 hover:bg-[#2563EB] hover:text-white transition-all"

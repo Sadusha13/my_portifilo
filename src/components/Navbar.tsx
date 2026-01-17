@@ -12,7 +12,7 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="max-w-[1280px] mx-auto px-20 h-20 flex items-center justify-between">
         <div className="text-xl font-semibold text-[#0F172A]">
-          SN
+    
         </div>
         
         <div className="flex items-center gap-8">
